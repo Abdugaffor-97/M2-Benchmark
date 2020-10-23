@@ -1,0 +1,47 @@
+body {
+    background-color: #d8d8d8;
+}
+
+/* Navbar */
+nav {
+    background-color: rgba(44, 44, 44, 1);
+}
+
+a {
+    background-color: none !important;
+    color: #5a5a5a;
+}
+
+nav a i {
+    color: #cac9c9;
+}
+
+/* section */
+/*  */
+.custom-border {
+    border-bottom: 1px solid #797979 !important;
+}
+
+.custom-border li.custom-border {
+    border-bottom: 1px solid #8a358d !important;
+}
+
+/* Cards part1 */
+.badge-custom {
+    background-color: #78457a;
+    color: white;
+}
+
+/* Cards part 4 */
+section div.card-custom-4 h1,
+section div.card-custom-4 h3 {
+    color: #f9e921;
+}
+
+section div.card-custom-4 h1 {
+    font-size: 5em;
+}
+
+section div.card-custom-4 h6 {
+    font-size: 18px;
+}
