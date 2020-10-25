@@ -7,35 +7,38 @@ nav {
     background-color: rgba(44, 44, 44, 1);
 }
 
+nav a {
+    color: #e6e6e6;
+}
+
 a {
     background-color: none !important;
-    color: #5a5a5a;
+    color: #3b3b3b;
 }
 
 nav a i {
     color: #cac9c9;
 }
 
-/* section */
-/*  */
-.custom-border {
-    border-bottom: 1px solid #797979 !important;
-}
-
-.custom-border li.custom-border {
-    border-bottom: 1px solid #8a358d !important;
-}
-
 /* Cards part1 */
 .badge-custom {
     background-color: #78457a;
     color: white;
+    font-size: 17px;
+    margin-top: 0.8rem;
 }
 
 /* Cards part 4 */
-section div.card-custom-4 h1,
-section div.card-custom-4 h3 {
+.card.bg-dark.text-white h1,
+.card.bg-dark.text-white h6 {
     color: #f9e921;
+}
+
+.card.bg-dark.text-white {
+    min-height: 400px;
+}
+.card.bg-dark.text-white img {
+    height: 100% !important;
 }
 
 section div.card-custom-4 h1 {
@@ -44,4 +47,34 @@ section div.card-custom-4 h1 {
 
 section div.card-custom-4 h6 {
     font-size: 18px;
+}
+
+/* All of the cards */
+.card {
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.card:hover {
+    box-shadow: 0 0 2px 0 black;
+}
+
+.card:hover .card .card-body:first-child {
+    display: none;
+}
+
+.card-body {
+    background-color: #d8cccc;
+}
+
+.card:hover .card-body div div:last-child i {
+    display: block !important;
+}
+
+.card:hover .card-body div div:first-child i {
+    display: none;
+}
+
+.card img {
+    height: 140px;
 }
