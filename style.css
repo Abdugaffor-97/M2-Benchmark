@@ -81,10 +81,11 @@ section div.card-custom-4 h6 {
 
 .carousel-control-next,
 .carousel-control-prev {
-  height: 50px !important;
-  width: 50px !important;
+  height: 40px !important;
+  width: 40px !important;
   border-radius: 50%;
   top: 40%;
+  border: 3px solid white;
   background-color: black;
   margin: 0 10px;
 }
